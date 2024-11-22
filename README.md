@@ -1,16 +1,15 @@
-# Cubos Glad
+# Cubos GLAD
 
-This repository has the glad's code to be used in **Cubos Engine**.
+This repository contains the GLAD generated code to be used in **Cubos Engine**.
 
+## What is GLAD?
 
-### What is GLAD?
 [GLAD](https://glad.dav1d.de) is a library that simplify the use of the latest OpenGL features.
 
-
-### Configs used in Cubos
+## Generation arguments
 
 - **Language:** C/C++
 - **Specification:** OpenGL
-- **Api:** gl version 4.3
+- **API:** gl version 4.3, gles2 version 3.0
 - **Profile:** Core
-- **Extensions:** GL_EXT_texture_filter_anisotropic
+- **Extensions:** GL_EXT_color_buffer_float, GL_EXT_texture_filter_anisotropic
